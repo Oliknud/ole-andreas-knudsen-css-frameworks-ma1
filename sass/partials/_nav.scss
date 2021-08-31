@@ -1,0 +1,11 @@
+nav {
+    background: getColor(secondary);
+
+    .container-fluid {
+        max-width: 1140px;
+    }
+
+    #navbarNav {
+        justify-content: flex-end;
+    }
+}

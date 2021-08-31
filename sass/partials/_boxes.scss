@@ -1,0 +1,27 @@
+// .main {
+    
+// }
+
+.row {
+    justify-content: center;
+   text-align: center;
+}
+
+.box {
+    border-radius: 12px;
+    width: 264px;
+    height: 263px;
+    margin: 12px;
+}
+
+.box-gray {
+    background: getColor(secondary);
+}
+
+.box-pink {
+    border: solid 3px getColor(primary);
+}
+
+.box-pink-bg {
+    background: getColor(primary);
+}

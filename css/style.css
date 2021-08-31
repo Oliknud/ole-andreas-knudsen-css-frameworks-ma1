@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  margin: 0;
+}
+
+a {
+  margin-left: 20px;
+}
+
+nav {
+  background: #F4F3EE;
+}
+
+nav .container-fluid {
+  max-width: 1140px;
+}
+
+nav #navbarNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.box {
+  border-radius: 12px;
+  width: 264px;
+  height: 263px;
+  margin: 12px;
+}
+
+.box-gray {
+  background: #F4F3EE;
+}
+
+.box-pink {
+  border: solid 3px #C32C72;
+}
+
+.box-pink-bg {
+  background: #C32C72;
+}
+/*# sourceMappingURL=style.css.map */
