@@ -1,11 +1,24 @@
 nav {
-    background: getColor(secondary);
+  background: getColor(secondary);
+  position: absolute !important;
+  z-index: 1;
+  width: 100%;
 
-    .container-fluid {
-        max-width: 1140px;
-    }
+  #navbarNav {
+    justify-content: flex-end;
+  }
 
-    #navbarNav {
-        justify-content: flex-end;
+  a {
+    margin: 0;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-nav {
+      padding: 20px 0;
     }
+  }
+
+  .active {
+    color: getColor(primary) !important;
+  }
 }

@@ -1,0 +1,19 @@
+footer {
+    background: getColor(secondary);
+
+    .container-sm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        
+        p {
+            color: #8e8e8e;
+            margin: 0;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+}
